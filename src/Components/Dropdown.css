@@ -1,14 +1,20 @@
 .services-submenu{
     width:10rem;
     position: absolute;
+    top:67px;
     list-style: none;
     text-align: start;
 }
 
 
-.services-submenu li{
-    background: rgb(0,212,212);
+.services-submenu li a:hover{
+    background: rgb(0,175,175);
   cursor: pointer;
+
+}
+
+.services-submenu.clicked{
+    display: none;
 
 }
 
@@ -19,4 +25,8 @@
     text-decoration: none;
     color: white;
     padding: 16px;
+}
+
+.submenu-item:hover{
+  background: rgb(0,175,175);
 }

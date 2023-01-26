@@ -1,5 +1,5 @@
-import { BrowserRouter, Route, Switch } from 'react-router-dom';
-import {Navbar} from "./Components/Navbar"
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import Navbar from "./Components/Navbar"
 import './App.css';
 
 
@@ -8,9 +8,9 @@ function App() {
  <>
 <BrowserRouter>
 <Navbar  />
-<Switch>
+<Routes>
   <Route></Route>
-</Switch>
+</Routes>
 </BrowserRouter>
  
  </>
