@@ -4,6 +4,7 @@ import * as Icons from "react-icons/fa"
 import "./style.css";
 import { navItems } from './NavItems';
 import Button from './Button';
+import Dropdown from './Dropdown';
 
 const Navbar = () => {
   return (
@@ -24,6 +25,7 @@ const Navbar = () => {
         </ul>
         <Button  />
     </nav>
+    <Dropdown  />
     </>
   )
 }

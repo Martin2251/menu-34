@@ -10,7 +10,7 @@ const Dropdown = () => {
         {serviceDropdown.map(item => {
             return(
                 <li key={item.id}>
-                    <Link className={item.cName}>{item.title}</Link>
+                    <Link to={item.path}className={item.cName}>{item.title}</Link>
                 </li>
             )
         })}
